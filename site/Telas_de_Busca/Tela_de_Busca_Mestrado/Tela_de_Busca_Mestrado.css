@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Inder', sans-serif;
+    background: #03223F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    margin-bottom: 600px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cabecalho {
+    width: 100%;
+    background: rgba(3, 139, 187, 0.60);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.Logo {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+
+.Nome {
+    color: white;
+    font-size: 2em;
+    word-wrap: break-word;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.container_graduacao_academica {
+    width: 100%;
+    height:auto;
+    background: #FCCB6F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+    bottom: 20px;
+}
+
+.home,
+.item_graduacao {
+    color: black;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    margin-right: 20px;
+}
+
+.pesquisa {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 5px solid #038BBB; 
+    top: 167px;
+    left: 125px;
+    position: absolute;
+}
+
+.caixas_de_videos{
+    width: 1050px;
+    background-color: darkcyan;
+    display: flex;
+    flex: 1;
+    top: 300px;
+    position: relative;
+    justify-content: space-around;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.caixas_de_video_1,
+.caixas_de_video_2,
+.caixas_de_video_3,
+.caixas_de_video_4 {
+    position: relative;
+    color: white;
+    height: 150px;
+    width: 250px;
+}
+
+.Aviso{
+    color: white;
+    position: relative;
+    bottom: -90px;
+    left: 400px;
+}
