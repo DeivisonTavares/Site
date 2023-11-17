@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo3.css">
+    <title>Biomed Explore</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="cabecalho">
+            <a onclick="Ir_Tela_1()" style="cursor: pointer;"><img src="../../Imagens/logo.png" alt="logo" class="Logo"></a>
+            <div class="Nome"><a onclick="Ir_Tela_1()" style="cursor: pointer;">BioMed Explore</a></div>
+        </div>
+
+        <div class="conteudo">
+            <div class="container_graduacao_academica">
+                <div class="home"><a onclick="Ir_Tela_1()" style="cursor: pointer;">Home</a></div>
+                <div class="item_graduacao">•</div>
+                <div class="item_graduacao"><a onclick="Ir_Tela_de_Busca_Bacharelado()" style="cursor: pointer;">Bacharelado</a></div>
+                <div class="item_graduacao"><a onclick="Ir_Tela_de_Busca_Mestrado()" style="cursor: pointer;">Mestrado</a></div>
+                <div class="item_graduacao"><a onclick="Ir_Tela_de_Busca_Doutorado()" style="cursor: pointer;">Doutorado</a></div>
+            </div>
+
+            <div class="descricao">Descrição do video:<br>
+                O vídeo está repleto de vivências em relação <br>a o que um bom biomédico faz rotineiramente<br> no exercício da profissão.<br>
+                E conta sobre como é cada especialidade.
+            </div>
+            
+            <input type="text" class="pesquisa" placeholder="Pesquise aqui">
+
+            
+                <iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/vjHYsR57jN0?si=ATeJAc2XtRYTFf1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <button class="botao" onclick="Feedback_Bacharelado()">Feedback</button>
+                <button class="botao" onclick="Ir_Tela_de_Quizz_Bacharelado()">Quizz</button>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="../../../site/Main.js"></script>
